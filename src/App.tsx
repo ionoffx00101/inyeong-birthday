@@ -1,11 +1,17 @@
+import Card from "./Card.tsx";
 
 function App() {
 
   return (
       <>
-          <h1 className="text-3xl font-bold underline">
-              Hello world!
-          </h1>
+          <div className="carousel carousel-center bg-neutral rounded-box max-w-full space-x-4 p-4">
+             <Card/>
+              <Card/>
+              <Card/>
+              <Card/>
+              <Card/>
+              <Card/>
+          </div>
       </>
   )
 }
