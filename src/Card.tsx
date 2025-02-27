@@ -1,3 +1,5 @@
+import kakao_send from './assets/btn_send_tiny.png';
+
 export default function Card(){
 
     return (
@@ -9,10 +11,15 @@ export default function Card(){
                         alt="Shoes" />
                 </figure>
                 <div className="card-body">
-                    <h2 className="card-title">Card Title</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                    <h2 className="card-title">구매할 물건 이름</h2>
+                    <h2 className="card-title">가격</h2>
+                    <p>설명</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <a href="https://link.kakaopay.com/_/byvj2Zk" target="_blank" rel="noopener noreferrer">
+                        <button>
+                            <img src={kakao_send} alt="Kakao Send" />
+                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
