@@ -17,14 +17,15 @@ function App() {
                   </div>
               </div>
           </div>
-          <div className="carousel carousel-center bg-neutral rounded-box max-w-full space-x-4 p-4">
-             <Card/>
-              <Card/>
-              <Card/>
-              <Card/>
-              <Card/>
-              <Card/>
+          <div className="flex flex-wrap justify-center items-center bg-neutral max-w-full gap-4 p-4">
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
           </div>
+
       </>
   )
 }
