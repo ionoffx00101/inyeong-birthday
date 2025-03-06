@@ -2,6 +2,7 @@ import Card from "./Card.tsx";
 import bday from "./assets/b-day.png"
 import Emoji01 from "./emoji01.tsx";
 import Eyemask from "./eyemask.tsx";
+import Atom from "./atom.tsx";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
               <Card />
               <Emoji01 />
               <Eyemask/>
+              <Atom/>
           </div>
 
       </>
