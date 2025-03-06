@@ -1,5 +1,7 @@
 import Card from "./Card.tsx";
 import bday from "./assets/b-day.png"
+import Emoji01 from "./emoji01.tsx";
+import Eyemask from "./eyemask.tsx";
 
 function App() {
 
@@ -18,12 +20,10 @@ function App() {
               </div>
           </div>
           <div className="flex flex-wrap justify-center items-center bg-neutral max-w-full gap-4 p-4">
+
               <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
+              <Emoji01 />
+              <Eyemask/>
           </div>
 
       </>
