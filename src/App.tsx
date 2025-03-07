@@ -3,6 +3,7 @@ import bday from "./assets/b-day.png"
 import Emoji01 from "./emoji01.tsx";
 import Eyemask from "./eyemask.tsx";
 import Atom from "./atom.tsx";
+import Module from "./module.tsx";
 
 function App() {
 
@@ -21,11 +22,11 @@ function App() {
               </div>
           </div>
           <div className="flex flex-wrap justify-center items-center bg-neutral max-w-full gap-4 p-4">
-
-              <Card />
               <Emoji01 />
               <Eyemask/>
+              <Module/>
               <Atom/>
+              <Card />
           </div>
 
       </>
