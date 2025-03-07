@@ -1,4 +1,5 @@
 import atom from "./assets/atom.jpg";
+import emoji01 from "./assets/emoji_01.png";
 
 export default function Atom(){
 
@@ -6,8 +7,9 @@ export default function Atom(){
         <div className="carousel-item">
             <div className="card bg-base-100 w-96 shadow-sm">
                 <figure>
-                    <img
-                        src={atom} alt={"emoji01"}/>
+                    <div className="w-96 h-96 flex items-center justify-center bg-white border">
+                        <img src={atom} alt={emoji01} className="max-w-full max-h-full object-contain" />
+                    </div>
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">Fallout 76 4000 atom</h2>
