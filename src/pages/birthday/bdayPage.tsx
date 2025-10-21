@@ -1,13 +1,14 @@
-import Card from "./page/birthday/Card.tsx";
-import bday from "./assets/b-day.png";
-import Emoji01 from "./page/birthday/emoji01.tsx";
-import Eyemask from "./page/birthday/eyemask.tsx";
-import Atom from "./page/birthday/atom.tsx";
-import Module from "./page/birthday/module.tsx";
+import bday from "../../assets/b-day.png";
+import Emoji01 from "./emoji01.tsx";
+import Eyemask from "./eyemask.tsx";
+import Module from "./module.tsx";
+import Atom from "./atom.tsx";
+import Card from "./Card.tsx";
 
-const App = () => {
+const bdayPage = () => {
   return (
     <>
+      {" "}
       <div className="hero bg-base-200">
         <div className="hero-content text-center">
           <div className="max-w-md">
@@ -30,5 +31,4 @@ const App = () => {
     </>
   );
 };
-
-export default App;
+export default bdayPage;
