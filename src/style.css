@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer utilities {
+  .drawer .drawer-side {
+    transition: none !important;
+  }
+  .drawer .drawer-side > :not(.drawer-overlay) {
+    transition: none !important;
+    will-change: auto;
+  }
+}
