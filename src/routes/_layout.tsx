@@ -1,11 +1,10 @@
 import { createFileRoute, Outlet } from "@tanstack/react-router";
 import {
   Gift,
-  List,
-  ListTodo,
   LucideHome,
   PanelLeftClose,
   PanelLeftOpen,
+  ScrollText,
 } from "lucide-react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -65,21 +64,15 @@ function LayoutComponent() {
               isDrawerOpen={isDrawerOpen}
             />
             <SidebarItem
+              link="/about"
+              label={t("sidebar.about")}
+              icon={<ScrollText />}
+              isDrawerOpen={isDrawerOpen}
+            />
+            <SidebarItem
               link="/gift"
               label={t("sidebar.gift")}
               icon={<Gift />}
-              isDrawerOpen={isDrawerOpen}
-            />
-            <SidebarItem
-              link="/todo"
-              label={t("sidebar.todo")}
-              icon={<ListTodo />}
-              isDrawerOpen={isDrawerOpen}
-            />
-            <SidebarItem
-              link="/crud"
-              label={t("sidebar.crud")}
-              icon={<List />}
               isDrawerOpen={isDrawerOpen}
             />
           </ul>

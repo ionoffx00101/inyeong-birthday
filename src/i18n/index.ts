@@ -9,9 +9,8 @@ const resources = {
       appTitle: "프론트엔드 개발자 황인영",
       sidebar: {
         home: "홈",
+        about: "이력",
         gift: "선물",
-        todo: "TODO(Local data)",
-        crud: "CRUD(Remote data)",
       },
       home: {
         lead: "생일 페이지에 온 걸 환영해요.",
@@ -27,9 +26,8 @@ const resources = {
       appTitle: "前端开发者 黄寅瑛",
       sidebar: {
         home: "首页",
+        about: "经历",
         gift: "礼物",
-        todo: "TODO(Local data)",
-        crud: "CRUD(Remote data)",
       },
       home: {
         lead: "欢迎来到生日页面。",
@@ -45,9 +43,8 @@ const resources = {
       appTitle: "Frontend Developer Inyeong Hwang",
       sidebar: {
         home: "Home",
+        about: "Career",
         gift: "Gifts",
-        todo: "TODO(Local data)",
-        crud: "CRUD(Remote data)",
       },
       home: {
         lead: "Welcome to the birthday page.",
