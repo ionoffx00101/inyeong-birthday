@@ -204,7 +204,7 @@ export const projects: Project[] = [
     details: [
       {
         platform: "Frontend",
-        techStack: ["React", "SCSS", "Recoil", "Axios"],
+        techStack: ["React", "SCSS", "Recoil"],
         items: [
           "드래그 앤 드롭으로 클라우드 인프라 구성요소를 배치하고 연결하는 시각화 편집기 구현",
           "Azure, AWS, Ncloud 각 클라우드 벤더별 리소스 컴포넌트 구현",
@@ -269,7 +269,7 @@ export const projects: Project[] = [
     details: [
       {
         platform: "Frontend",
-        techStack: ["React", "Recoil", "React Query", "Axios", "Tailwind"],
+        techStack: ["React", "Recoil", "React Query", "Tailwind"],
         items: [
           "Axios로 백엔드 API 호출하여 충전소 운영 데이터 수신",
           "전기차 충전소 운영 현황 시각화 및 실시간 모니터링 화면 구현",
@@ -278,7 +278,7 @@ export const projects: Project[] = [
       },
       {
         platform: "Backend",
-        techStack: [],
+        techStack: ["Java", "Spring Boot", "AWS EC2", "NGINX"],
         items: [
           "AWS EC2에 Spring Boot 서버 구축",
           "NGINX를 이용하여 프론트가 내부 서버에 요청하도록 구축",
@@ -308,7 +308,7 @@ export const projects: Project[] = [
       {
         platform: "Web",
         description: "고객센터·관리자용",
-        techStack: ["React", "Recoil", "React Query", "Axios", "Tailwind"],
+        techStack: ["React", "Recoil", "React Query", "Tailwind"],
         items: [
           "고객센터 및 외부 연계 업체로 접수된 A/S 요청 등록",
           "관리자가 등록된 A/S를 담당자에게 배정",
@@ -465,14 +465,7 @@ export const projects: Project[] = [
     details: [
       {
         platform: "React",
-        techStack: [
-          "React",
-          "TypeScript",
-          "Jotai",
-          "Bootstrap",
-          "Sass",
-          "Axios",
-        ],
+        techStack: ["React", "TypeScript", "Jotai", "Bootstrap", "Sass"],
         items: [
           "상태 관리 라이브러리를 Redux에서 Jotai로 점진적으로 마이그레이션",
           "파일 업로드 및 다운로드 기능 구현",
@@ -541,6 +534,7 @@ export const projects: Project[] = [
           "TanStack Router",
           "Jotai",
           "React Query",
+          "Tailwind",
         ],
         items: [
           "기존 Thymeleaf 기반 어드민을 React로 100% 신규 개발",
